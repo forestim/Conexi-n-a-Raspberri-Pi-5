@@ -18,7 +18,7 @@ El objetivo es mantener una conexión **estable, de baja latencia y con entorno 
             │    │
             │    └───────────────┐
             │                    │
-    ┌───────▼───────┐     ┌─────▼────────┐
+    ┌───────▼───────┐     ┌──────▼───────┐
     │ POE Converter │     │   Raspberry  │
     │   PS5724AT    │     │     PI 5     │
     └───────────────┘     └──────────────┘
