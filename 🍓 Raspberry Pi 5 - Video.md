@@ -7,19 +7,18 @@ Este servicio permite visualizar el video de las cámaras en tiempo real y reali
 
 Descargar, descomprimir y mover los ejecutables a las carpetas del sistema.
 
-```bash
+
 # Descargar la versión 1.9.0 para ARM64
-wget [https://github.com/bluenviron/mediamtx/releases/download/v1.9.0/mediamtx_v1.9.0_linux_arm64v8.tar.gz](https://github.com/bluenviron/mediamtx/releases/download/v1.9.0/mediamtx_v1.9.0_linux_arm64v8.tar.gz)
+`wget https://github.com/bluenviron/mediamtx/releases/download/v1.9.0/mediamtx_v1.9.0_linux_arm64v8.tar.gz`
 
 # Descomprimir el archivo
-tar -xvzf mediamtx_v1.9.0_linux_arm64v8.tar.gz
+`tar -xvzf mediamtx_v1.9.0_linux_arm64v8.tar.gz`
 
 # Mover el ejecutable a /usr/local/bin
-sudo mv mediamtx /usr/local/bin/
+`sudo mv mediamtx /usr/local/bin/`
 
 # Mover el archivo de configuración a /etc
-sudo mv mediamtx.yml /etc/
-```
+`sudo mv mediamtx.yml /etc/`
 
 ## 2. Configuración de Cámaras
 
