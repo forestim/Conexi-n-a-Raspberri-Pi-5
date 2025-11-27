@@ -19,12 +19,13 @@ El objetivo es mantener una conexión **estable, de baja latencia y con entorno 
             │    └───────────────┐
             │                    │
     ┌───────▼───────┐     ┌─────▼────────┐
-    │ POE Converter │     │   Router 4G  │
-    │   PS5724AT    │     │  Teltonika   │
+    │ POE Converter │     │   Raspberry  │
+    │   PS5724AT    │     │     PI 5     │
     └───────────────┘     └──────────────┘
             │
     ┌───────▼────────┐
-    │ Raspberry Pi 5 │
+    │    Router 4G   │
+    │    Teltonika   │    
     └────────────────┘
 
 
