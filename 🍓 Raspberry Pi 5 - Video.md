@@ -36,11 +36,11 @@ paths:
 
   # Ruta para Alta Calidad (Se usará al hacer clic para ver detalle)
   cam1_hq:
-    source: rtsp://admin:feo2024!@192.168.1.108:554/cam/realmonitor?channel=1&subtype=0
+    source: rtsp://admin:<Contraseña>@<IP CAMARA:554>/cam/realmonitor?channel=1&subtype=0
 
   # Ruta para Baja Calidad (Se usará para el Dashboard fluido)
   cam1_lq:
-    source: rtsp://admin:feo2024!@192.168.1.108:554/cam/realmonitor?channel=1&subtype=1
+    source: rtsp://admin:<Contraseña>@<IP CAMARA:554>/cam/realmonitor?channel=1&subtype=1
 ```
 
 *Para guardar: `Ctrl + O`, `Enter`. Para salir: `Ctrl + X`.*
