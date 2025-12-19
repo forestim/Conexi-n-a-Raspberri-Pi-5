@@ -12,7 +12,7 @@ Descargar, descomprimir y mover los ejecutables a las carpetas del sistema.
 `wget https://github.com/bluenviron/mediamtx/releases/download/v1.15.5/mediamtx_v1.15.5_linux_arm64.tar.gz`
 
 # Descomprimir el archivo
-`tar -xvzf mediamtx_v1.15.5_linux_arm64v8.tar.gz`
+  `tar -xvzf mediamtx_v1.15.5_linux_arm64v8.tar.gz`
 
 # Mover el ejecutable a /usr/local/bin
 `sudo mv mediamtx /usr/local/bin/`
@@ -35,6 +35,7 @@ Editar el archivo de configuración:
 Certificados
 
 `tailscale cert focoenobra3.tailb2be55.ts.net`
+
 `tailscale serve https:8889 / http://127.0.0.1:8889`
 
 `tailscale funnel 8889 on`
@@ -62,7 +63,7 @@ webrtcAllowOrigins:
 # CRÍTICO: La dirección pública
 # Esto le dice al navegador: "Búscame en esta URL, no en la IP local"
 webrtcAdditionalHosts:
-  - focoenobra3.tailb2be55.ts.net
+  - focoenobra0.tailb2be55.ts.net
 
 # CRÍTICO: El canal de video TCP
 # Corregimos el nombre del comando: es 'LocalTCPAddress'
